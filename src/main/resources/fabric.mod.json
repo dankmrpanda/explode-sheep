@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "explode_sheep",
+  "version": "${version}",
+  "name": "explode sheep",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/raymo/explode sheep"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/explode_sheep/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.cornchips.explode_sheep.ExplodeSheep"
+    ]
+  },
+  "mixins": [
+    "explode_sheep.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.cornchips.explode_sheep.Mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "SplashTextResourceSupplierMixin",
+    "ExplosiveSheepMixin",
+    "TntExplodePowerMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
